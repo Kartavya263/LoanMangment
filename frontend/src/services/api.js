@@ -2,7 +2,7 @@
  * API service for communicating with the Flask Loan Default Prediction backend.
  */
 
-const API_BASE_URL = 'http://127.0.0.1:5000';
+const API_BASE_URL = 'https://loanmangment-1.onrender.com';
 
 /**
  * Check backend connection status and latency.

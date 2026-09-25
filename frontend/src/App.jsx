@@ -255,12 +255,9 @@ export default function App() {
           <div className="p-4 bg-amber-50 border border-amber-200 rounded-2xl flex items-start gap-3 text-amber-900 text-xs sm:text-sm">
             <AlertCircle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
             <div>
-              <p className="font-bold">Backend Server is currently not detected on http://127.0.0.1:5000</p>
+              <p className="font-bold">Live Backend Server is currently unreachable (https://loanmangment-1.onrender.com)</p>
               <p className="mt-0.5 text-amber-800">
-                To run live predictions, make sure the Flask backend is started by running: 
-                <code className="mx-1 px-2 py-0.5 bg-white/80 rounded border border-amber-300 font-mono text-xs">
-                  python backend/app.py
-                </code>
+                Render free tier services spin down after inactivity. It may take 30-50 seconds for the server to wake up. Please wait a moment and try again.
               </p>
             </div>
           </div>
